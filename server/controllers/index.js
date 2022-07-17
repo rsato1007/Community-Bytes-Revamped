@@ -9,4 +9,4 @@ module.exports = {
     // posts: require("./posts"),
     // gifs: require("./gifs"),
     // auth: require('./auth'),
-  };
+};
