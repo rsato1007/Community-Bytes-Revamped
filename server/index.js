@@ -7,14 +7,13 @@ const express = require('express');
 // Create express instance
 const app = express();
 
-
 /* SERVER CONFIGURATIONS */
 // For now, we'll set port to 8000 until we can deploy it.
 const PORT = 8000;
 
 /* MIDDLEWARE */
 // More likely than not, this will be altered as we add Middleware.
-require("./middleware/index")(app);
+require("./middleware/index")(express, app);
 
 /* ROUTES AND CONTROLLERS */
 // The code below is a test to ensure our server works
